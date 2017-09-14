@@ -121,7 +121,10 @@ void Sequence::readMarkers(const string &file, vector<Point2f> &data, const Mat 
 	cornerSubPix(firstImage, data, Constants::markerRefinementWindowSize, Constants::markerRefinementZeroZone, Constants::markerRefinementCriteria);
 }
 
+
 void Sequence::sortMarkers() {
+	//sort both vectors so that the positions are corresponding
+	
 	cerr << "Sequence::sortMarkers is not implemented" << endl;
 	float sourceMarker_X = markers[0][0].x;
 	float sourceMarker_Y = markers[0][0].y;
@@ -138,10 +141,12 @@ void Sequence::sortMarkers() {
 	//Mat newsourceMarker = (Mat_<cv::Point_<float>>(1, 2) << newmarkers[1][0], newmarkers[1][1]);
 	//Mat newtargetMarker = (Mat_<cv::Point_<float>>(1, 2) << newmarkers[1][0], newmarkers[1][1]);
 
+	//fundamental matrix
 	Mat fundMat = calib.getFundamentalMat();
 	//Mat firstEpipolar = (sourceMarker*fundMat)*targetMarker;
 	//Mat secondEpipolar = (sourceMarker*fundMat)*sectargetMarker;
-
+	
+	//calculate epipolar of two camera
 	Mat firstEpipolar = (targetMarker.t()*fundMat)*sourceMarker;
 	Mat secondEpipolar = (sectargetMarker.t()*fundMat)*sourceMarker;
 	//float* firEpiVal = (float*)firstEpipolar.data;
