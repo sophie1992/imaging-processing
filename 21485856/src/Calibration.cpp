@@ -8,12 +8,12 @@ using namespace cv;
 using namespace std;
 
 Calibration::Calibration(const string &folder) : camera1(readMatrix(folder + Constants::camera1File)),
-	                                             camera2(readMatrix(folder + Constants::camera2File)),
-												 distortion1(readMatrix(folder + Constants::distortion1File)),
-												 distortion2(readMatrix(folder + Constants::distortion2File)),
-												 fundamentalMat(readMatrix(folder + Constants::fundamentalMatFile)),
-												 transCamera1World(readMatrix(folder + Constants::extCamera1WorldFile)),
-												 transCamera1Camera2(readMatrix(folder + Constants::extCamera1Camera2File)) {
+	                                         camera2(readMatrix(folder + Constants::camera2File)),
+						 distortion1(readMatrix(folder + Constants::distortion1File)),
+					         distortion2(readMatrix(folder + Constants::distortion2File)),
+					         fundamentalMat(readMatrix(folder + Constants::fundamentalMatFile)),
+						 transCamera1World(readMatrix(folder + Constants::extCamera1WorldFile)),
+						 transCamera1Camera2(readMatrix(folder + Constants::extCamera1Camera2File)) {
 	// check validity of matrix dimensions
 	checkMatrixDimensions(camera1, 3, 3, "intrinsics of first camera");
 	checkMatrixDimensions(camera2, 3, 3, "intrinsics of second camera");
@@ -25,12 +25,12 @@ Calibration::Calibration(const string &folder) : camera1(readMatrix(folder + Con
 }
 
 Calibration::Calibration(const Calibration &other) : camera1(other.camera1.clone()),
-	                                                 camera2(other.camera2.clone()),
-													 distortion1(other.distortion1.clone()),
-													 distortion2(other.distortion2.clone()),
-													 fundamentalMat(other.fundamentalMat.clone()),
-													 transCamera1World(other.transCamera1World.clone()),
-													 transCamera1Camera2(other.transCamera1Camera2.clone()) {
+	                                             camera2(other.camera2.clone()),
+						     distortion1(other.distortion1.clone()),
+						     distortion2(other.distortion2.clone()),
+						     fundamentalMat(other.fundamentalMat.clone()),
+						     transCamera1World(other.transCamera1World.clone()),
+						     transCamera1Camera2(other.transCamera1Camera2.clone()) {
 }
 
 Mat Calibration::getCamera1() const {
