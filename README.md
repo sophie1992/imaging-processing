@@ -79,7 +79,7 @@ M. Sc. Sven Painer* - [3dcv](https://tux.ti1.tuharburg.de/3dcv/signin.php)
 
 ## License
 
-This project is licensed under the GUN License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
