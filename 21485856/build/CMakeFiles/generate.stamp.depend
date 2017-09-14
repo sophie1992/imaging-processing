@@ -1,0 +1,22 @@
+# CMake generation dependency list for this directory.
+E:/tuhh所用文件/2015 WS/3D Computer Vision/21485856/CMakeLists.txt
+E:/tuhh所用文件/2015 WS/3D Computer Vision/21485856/build/CMakeFiles/3.4.1/CMakeSystem.cmake
+E:/tuhh所用文件/2015 WS/3D Computer Vision/cmake-3.4.1-win32-x86/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/CMakeSystemSpecificInitialize.cmake
+E:/tuhh所用文件/2015 WS/3D Computer Vision/21485856/build/CMakeFiles/3.4.1/CMakeCXXCompiler.cmake
+E:/tuhh所用文件/2015 WS/3D Computer Vision/cmake-3.4.1-win32-x86/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/CMakeSystemSpecificInformation.cmake
+E:/tuhh所用文件/2015 WS/3D Computer Vision/cmake-3.4.1-win32-x86/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/CMakeGenericSystem.cmake
+E:/tuhh所用文件/2015 WS/3D Computer Vision/cmake-3.4.1-win32-x86/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/Platform/Windows.cmake
+E:/tuhh所用文件/2015 WS/3D Computer Vision/cmake-3.4.1-win32-x86/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/Platform/WindowsPaths.cmake
+E:/tuhh所用文件/2015 WS/3D Computer Vision/cmake-3.4.1-win32-x86/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/CMakeCXXInformation.cmake
+E:/tuhh所用文件/2015 WS/3D Computer Vision/cmake-3.4.1-win32-x86/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/Compiler/MSVC-CXX.cmake
+E:/tuhh所用文件/2015 WS/3D Computer Vision/cmake-3.4.1-win32-x86/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/Platform/Windows-MSVC-CXX.cmake
+E:/tuhh所用文件/2015 WS/3D Computer Vision/cmake-3.4.1-win32-x86/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/Platform/Windows-MSVC.cmake
+E:/tuhh所用文件/2015 WS/3D Computer Vision/21485856/build/CMakeFiles/3.4.1/CMakeRCCompiler.cmake
+E:/tuhh所用文件/2015 WS/3D Computer Vision/cmake-3.4.1-win32-x86/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/CMakeRCInformation.cmake
+E:/tuhh所用文件/2015 WS/3D Computer Vision/cmake-3.4.1-win32-x86/cmake-3.4.1-win32-x86/share/cmake-3.4/Modules/CMakeCommonLanguageInclude.cmake
+E:/OpenCV/build/OpenCVConfig-version.cmake
+E:/OpenCV/build/OpenCVConfig.cmake
+E:/OpenCV/build/x64/vc12/lib/OpenCVConfig.cmake
+E:/OpenCV/build/x64/vc12/lib/OpenCVModules.cmake
+E:/OpenCV/build/x64/vc12/lib/OpenCVModules-debug.cmake
+E:/OpenCV/build/x64/vc12/lib/OpenCVModules-release.cmake

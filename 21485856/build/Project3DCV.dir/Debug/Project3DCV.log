@@ -1,0 +1,21 @@
+﻿Build started 2016/1/29 10:53:41.
+     1>Project "E:\tuhh所用文件\2015 WS\3D Computer Vision\21485856\build\Project3DCV.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\vs2013\VC\bin\x86_amd64\CL.exe /c /IE:\OpenCV\build\include /IE:\OpenCV\build\include\opencv /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Project3DCV.dir\Debug\\" /Fd"Project3DCV.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "E:\tuhh所用文件\2015 WS\3D Computer Vision\21485856\src\main.cpp"
+         main.cpp
+     1>E:\OpenCV\build\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\OpenCV\build\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\OpenCV\build\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+       Link:
+         E:\vs2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\tuhh所用文件\2015 WS\3D Computer Vision\21485856\build\Debug\Project3DCV.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib E:\OpenCV\build\x64\vc12\lib\opencv_world300d.lib E:\OpenCV\build\x64\vc12\lib\opencv_world300d.lib E:\OpenCV\build\x64\vc12\lib\opencv_world300d.lib E:\OpenCV\build\x64\vc12\lib\opencv_world300d.lib E:\OpenCV\build\x64\vc12\lib\opencv_world300d.lib E:\OpenCV\build\x64\vc12\lib\opencv_world300d.lib E:\OpenCV\build\x64\vc12\lib\opencv_world300d.lib E:\OpenCV\build\x64\vc12\lib\opencv_world300d.lib E:\OpenCV\build\x64\vc12\lib\opencv_world300d.lib E:\OpenCV\build\x64\vc12\lib\opencv_world300d.lib E:\OpenCV\build\x64\vc12\lib\opencv_world300d.lib E:\OpenCV\build\x64\vc12\lib\opencv_world300d.lib E:\OpenCV\build\x64\vc12\lib\opencv_world300d.lib E:\OpenCV\build\x64\vc12\lib\opencv_world300d.lib E:\OpenCV\build\x64\vc12\lib\opencv_world300d.lib E:\OpenCV\build\x64\vc12\lib\opencv_world300d.lib E:\OpenCV\build\x64\vc12\lib\opencv_world300d.lib E:\OpenCV\build\x64\vc12\lib\opencv_world300d.lib /NODEFAULTLIB:"MSVCRT;" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/tuhh所用文件/2015 WS/3D Computer Vision/21485856/build/Debug/Project3DCV.pdb" /SUBSYSTEM:CONSOLE /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/tuhh所用文件/2015 WS/3D Computer Vision/21485856/build/Debug/Project3DCV.lib" /MACHINE:X64  /machine:x64 /debug Project3DCV.dir\Debug\tools.obj
+         Project3DCV.dir\Debug\main.obj
+         Project3DCV.dir\Debug\Calibration.obj
+         Project3DCV.dir\Debug\Sequence.obj
+         Project3DCV.dir\Debug\Tracking.obj
+         Project3DCV.dir\Debug\Triangulation.obj
+         Project3DCV.vcxproj -> E:\tuhh所用文件\2015 WS\3D Computer Vision\21485856\build\Debug\Project3DCV.exe
+     1>Done Building Project "E:\tuhh所用文件\2015 WS\3D Computer Vision\21485856\build\Project3DCV.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.16

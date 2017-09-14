@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\tuhh所用文件\2015 WS\3D Computer Vision\21485856\src\tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tuhh所用文件\2015 WS\3D Computer Vision\21485856\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tuhh所用文件\2015 WS\3D Computer Vision\21485856\src\Calibration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tuhh所用文件\2015 WS\3D Computer Vision\21485856\src\Sequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tuhh所用文件\2015 WS\3D Computer Vision\21485856\src\Tracking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tuhh所用文件\2015 WS\3D Computer Vision\21485856\src\Triangulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\tuhh所用文件\2015 WS\3D Computer Vision\21485856\src\Constants.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\tuhh所用文件\2015 WS\3D Computer Vision\21485856\src\tools.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\tuhh所用文件\2015 WS\3D Computer Vision\21485856\src\Calibration.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\tuhh所用文件\2015 WS\3D Computer Vision\21485856\src\Sequence.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\tuhh所用文件\2015 WS\3D Computer Vision\21485856\src\Tracking.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\tuhh所用文件\2015 WS\3D Computer Vision\21485856\src\Triangulation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\tuhh所用文件\2015 WS\3D Computer Vision\21485856\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B033907E-22E4-37EB-9F12-3DDD497B49F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{29BC624F-6CB3-3EF2-A88B-D23A4847ADC3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
